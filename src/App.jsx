@@ -6,8 +6,6 @@ function App() {
   return (
     <>
       <Navbar/>
-
-      <h2>Olá</h2>
       <Outlet/>
     </>
   );
