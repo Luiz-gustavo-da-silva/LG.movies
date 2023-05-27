@@ -31,7 +31,9 @@ const Search = () => {
       </h2>
       <div className="movies-container">
         {movies.length > 0 &&
-          movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
+          movies.map((movie) => {
+          return <MovieCard key={movie.id} movie={movie} />;
+          })}
       </div>
     </div>
   );
